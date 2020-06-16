@@ -1,3 +1,5 @@
+import * as microsoftTeams from "@microsoft/teams-js";
+
 microsoftTeams.initialize();
 
 var textContainer = document.createElement("p");
