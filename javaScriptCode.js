@@ -1,4 +1,4 @@
-window.androidObj = function AndroidClass(){};
+microsoftTeams.initialize();
 
 var textContainer = document.createElement("p");
 var nativeText = document.createTextNode("Android Text");
