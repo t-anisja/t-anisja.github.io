@@ -15,7 +15,7 @@ button.innerHTML = "Send to Android";
 button.style.width = "150px";
 button.style.height = "30px";
 button.addEventListener ("click", function() {
-  Android.textToAndroid(input.value);
+  microsoftTeams.framelessPostMessage(input.value);
 });
 buttonContainer.appendChild(button);
 
